@@ -1,8 +1,10 @@
 import { mainimage } from "./assets"
 import AboutUs from "./components/AboutUs"
 import ContactUs from "./components/ContactUs"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import OtherDetails from "./components/OtherDetails"
 import OurFurnitures from "./components/OurFurnitures"
 import Projects from "./components/Projects"
 import Services from "./components/Services"
@@ -27,10 +29,14 @@ function App() {
         <Projects></Projects>
       </div>
       <ContactUs></ContactUs>
+      <OtherDetails></OtherDetails>
+      <Footer></Footer>
 
     </div>
   )
 }
 
 export default App
+
+
 

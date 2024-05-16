@@ -7,11 +7,11 @@ export default function Projects() {
             <div className="w-[85%] mx-auto flex flex-col items-center gap-4  ">
                 <h2 className="font-bold text-[40px]">Our Projects</h2>
                 <h3 className="text-center text-[20px] mb-[16px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
-                <div className="flex flex-col gap-5">
+                <div className="flex flex-col gap-5 sm:flex-row">
                     {projects.map((project) => (
                         <div className="relative w-[400px] h-[300px]">
                             <img src={project.img} alt="" className="absolute w-full h-full object-cover" />
-                            <h3 className="relative z-[10] top-[230px] left-[27%] text-white font-medium text-[18px] ">{project.name}</h3>
+                            <h3 className="relative z-[10] top-[230px] left-[27%] text-white font-medium text-[18px] w-fit ">{project.name}</h3>
                         </div>
                     ))}
                 </div>

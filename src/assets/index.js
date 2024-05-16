@@ -14,6 +14,11 @@ import img3 from "./rectangle_12.jpg"
 import cust1 from "./brooke-cagle-bpydhzpfc8i-.png"
 import cust2 from "./kyryll-ushakov-qsjm7zomoe.png"
 import semicol from "./icons8-quote-left-filled-.png"
+import shape from "./Rectangle 17.svg"
+import twitter from "./twitter.png";
+import facebook from "./facebook-logo-button.png";
+import instagram from "./instagram.png"
+import linkedIn from "./linkedin-logo-button.png"
 
 
 export {
@@ -32,5 +37,10 @@ export {
     img3,
     cust1,
     cust2,
-    semicol
+    semicol,
+    shape,
+    twitter,
+    facebook,
+    instagram,
+    linkedIn
 }
