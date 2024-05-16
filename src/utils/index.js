@@ -16,24 +16,24 @@ export const projects = [
 
 export const reviews = [
     { id: 1, img: cust1, name: "Loksan", desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod adipisci corrupti laborum, mollitia est error dignissimos!" },
-    { id: 1, img: cust2, name: "Loksan", desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod adipisci corrupti laborum, mollitia est error dignissimos!" },
+    { id: 2, img: cust2, name: "Loksan", desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod adipisci corrupti laborum, mollitia est error dignissimos!" },
 
 
 ]
 
 export const footer = [
     { id: 1, name: "Let's Design together", desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Alias similique cumque debitis soluta, quaerat temporibus.Amet eligendi repellendus recusandae porro." },
-    { id: 1, name: "Let Us Help You", desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Alias similique cumque debitis soluta, quaerat temporibus.Amet eligendi repellendus recusandae porro." },
-    { id: 1, name: "Information", desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Alias similique cumque debitis soluta, quaerat temporibus.Amet eligendi repellendus recusandae porro." },
-    { id: 1, name: "Our Design", desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Alias similique cumque debitis soluta, quaerat temporibus.Amet eligendi repellendus recusandae porro." }
+    { id: 2, name: "Let Us Help You", desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Alias similique cumque debitis soluta, quaerat temporibus.Amet eligendi repellendus recusandae porro." },
+    { id: 3, name: "Information", desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Alias similique cumque debitis soluta, quaerat temporibus.Amet eligendi repellendus recusandae porro." },
+    { id: 4, name: "Our Design", desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Alias similique cumque debitis soluta, quaerat temporibus.Amet eligendi repellendus recusandae porro." }
 
 ]
 
 export const socialMedia = [
     { id: 1, img: facebook },
-    { id: 1, img: twitter },
-    { id: 1, img: instagram },
-    { id: 1, img: linkedIn },
+    { id: 2, img: twitter },
+    { id: 3, img: instagram },
+    { id: 4, img: linkedIn },
 
 ]
 

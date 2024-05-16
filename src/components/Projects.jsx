@@ -20,10 +20,10 @@ export default function Projects() {
             <div className="w-[85%] mx-auto flex flex-col items-center gap-4 pt-[180px]">
                 <h2 className="uppercase font-bold text-[40px] text-center ">What is says our clients</h2>
                 <h3 className="text-[20px] text-center mb-[16px]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                <div className="w-full h-[500px] flex flex-col justify-between ">
+                <div className="w-full h-[500px] flex flex-col justify-between sm:justify-center gap-10 ">
                     {reviews.map(review => (
-                        <div className="flex items-center justify-between w-full gap-4 border-[1px] p-8">
-                            <div className="relative w-[400px] h-full">
+                        <div className={`flex items-center justify-between w-full sm:w-fit gap-4 border-[1px] p-8 ${review.id === 2 && " sm:translate-x-[30rem]"}`}>
+                            <div className="relative w-[400px] sm:w-fit h-full ">
                                 <img src={review.img} alt="" className="w-full h-full object-cover" />
                                 <img src={semicol} alt="" className="absolute right-10 -bottom-2" />
                             </div>

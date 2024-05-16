@@ -3,7 +3,7 @@ import { footer } from "../utils";
 
 export default function OtherDetails() {
     return (
-        <div className="w-full relative ">
+        <div className="w-full relative">
             <div className="w-full h-full absolute overflow-x-hidden">
                 <img src={kitchen} alt="" className="min-w-[1200px] h-full object-cover object-bottom" />
             </div>
